@@ -1,19 +1,9 @@
-# System packages required for Streamlit Cloud deployment
-# These will be installed via apt-get
-
-# For data processing and scientific computing
 python3-dev
 python3-pip
-
-# For matplotlib and plotting
 libfreetype6-dev
 libpng-dev
 pkg-config
-
-# For numpy and scipy
 libblas-dev
 liblapack-dev
 gfortran
-
-# For general system support
 build-essential
