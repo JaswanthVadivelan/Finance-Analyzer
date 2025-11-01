@@ -61,61 +61,6 @@ finance-analyzer/
 
 Your app will be live at: `https://[your-username]-finance-analyzer-[random-string].streamlit.app`
 
-### Option 2: Local Installation
-
-#### Prerequisites
-- Python 3.8 or higher
-- pip (Python package manager)
-
-#### Steps
-```bash
-# Clone the repository
-git clone https://github.com/[your-username]/finance-analyzer.git
-cd finance-analyzer
-
-# Create virtual environment (recommended)
-python -m venv finance_env
-
-# Activate virtual environment
-# Windows:
-finance_env\Scripts\activate
-# macOS/Linux:
-source finance_env/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-streamlit run app.py
-```
-
-### Option 3: Docker Deployment
-
-```bash
-# Build and run with Docker
-docker build -t finance-analyzer .
-docker run -p 8501:8501 finance-analyzer
-
-# Or use Docker Compose
-docker-compose up
-```
-
-### Option 4: Deploy to Heroku
-
-1. **Install Heroku CLI**
-2. **Create Heroku app**:
-   ```bash
-   heroku create your-finance-analyzer
-   ```
-3. **Add buildpack**:
-   ```bash
-   heroku buildpacks:set heroku/python
-   ```
-4. **Deploy**:
-   ```bash
-   git push heroku main
-   ```
-
 ## 📊 How to Use
 
 ### 1. Upload Your Data
