@@ -64,7 +64,7 @@ Your app will be live at: `https://[your-username]-finance-analyzer-[random-stri
 ## 📊 How to Use
 
 ### 1. Upload Your Data
-- **Option 1**: Upload your bank statement (CSV or Excel format)
+- **Option 1**: Upload your bank statement (CSV or Excel format) You can also use our provided sample CSV file to test the application.
 - **Option 2**: Use the sample data to explore features
 
 ### 2. Required Data Format
@@ -120,7 +120,6 @@ Transactions are automatically categorized into:
 ### Forecasting Models
 - **Linear Regression**: Trend-based predictions
 - **Random Forest**: Advanced ML predictions
-- **ARIMA**: Time series forecasting
 - **Ensemble**: Combined model predictions
 
 ## 🔧 Technical Details
